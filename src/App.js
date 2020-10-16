@@ -1,20 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import GlobalStyle from './globalStyles';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { Navbar } from './components';
+
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path = '/' exact component = {Home} />
-        <Route path = '/service '  component = {Service} />
-        <Route path = '/produkte ' component = {Produkte} />
-        <Route path = '/log-in' exact component = {LogIn} />
-      </Switch>
-      <Footer />   
       <GlobalStyle />
-      <ScrollToTop />
-      <Navbar />
+      <Navbar/>
     </Router>
   );
 }
