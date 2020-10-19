@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {FaMagento} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
@@ -33,7 +32,8 @@ display: flex;
 align-items: center;
 `;
 
-export const NavIcon = styled(FaMagento)`
+export const NavIcon = styled.img`
+width: 40px;
 margin-right: 0.5rem;
 `;
 
@@ -64,7 +64,7 @@ export const NavMenu = styled.ul`
     height: 90vh;
     position: absolute;
     top: 80px;
-    left: ${({click}) =>(click ? 0 : '-100%')};
+    left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
     background: #101522;
@@ -72,7 +72,8 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-height: 80px;
+
+height: 20px;
 border-bottom: 2px solid transparent;
 
 &:hover {
