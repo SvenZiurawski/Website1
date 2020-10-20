@@ -26,7 +26,7 @@ function Pricing() {
                 <PricingWrapper>
                     <PricingHeading>Leistungen</PricingHeading>
                     <PricingContainer>
-                        <PricingCard to='/sign-up'>
+                        <PricingCard to='/leistungen'>
                             <PricingCardInfo>
                                 <PricingCardIcon>
                                     <GiSensuousness />
@@ -42,7 +42,7 @@ function Pricing() {
                                 <Button primary>mehr</Button>
                             </PricingCardInfo>
                         </PricingCard>
-                        <PricingCard to='/sign-up'>
+                        <PricingCard to='/leistungen'>
                             <PricingCardInfo>
                                 <PricingCardIcon>
                                     <GiAbstract114 />
@@ -59,7 +59,7 @@ function Pricing() {
                                 <Button primary>mehr</Button>
                             </PricingCardInfo>
                         </PricingCard>
-                        <PricingCard to='/sign-up'>
+                        <PricingCard to='/leistungen'>
                             <PricingCardInfo>
                                 <PricingCardIcon>
                                     <GiTablet />
@@ -75,7 +75,7 @@ function Pricing() {
                                 <Button primary>mehr</Button>
                             </PricingCardInfo>
                         </PricingCard>
-                        <PricingCard to='/sign-up'>
+                        <PricingCard to='/leistungen'>
                             <PricingCardInfo>
                                 <PricingCardIcon>
                                     <CgWebsite />
@@ -91,7 +91,7 @@ function Pricing() {
                                 <Button primary>mehr</Button>
                             </PricingCardInfo>
                         </PricingCard>
-                        <PricingCard to='/sign-up'>
+                        <PricingCard to='/leistungen'>
                             <PricingCardInfo>
                                 <PricingCardIcon>
                                     <GiCutDiamond />

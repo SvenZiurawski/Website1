@@ -15,18 +15,18 @@ export const homeObjFive = {
 };
 
 export const homeObjSix = {
-    lightBg: false,
+    lightBg: true,
     lightText: false,
     lightTopLine: false,
     lightTextDesc: false,
-    topLine: 'App Entwicklung',
-    headline: 'Schnelle und kostengünstige App-Entwicklung vom Profi',
+    topLine: 'Cosmos Fitness',
+    headline: 'Infos über Cosmos Fitness',
     description:
-        ' Wenn Sie eine eigene App entwickeln lassen möchten, sollten Sie auf eine professionelle Programmierung setzen. Egal, ob Sie eine Software für Ihr Unternehmen oder Ihren Verein benötigen oder als Privatperson eine innovative Idee haben, die den App-Markt revolutionieren soll: Wir bringen die Applikation aus Ihrem Kopf in kurzer Zeit auf die Endgeräte. Sie haben die Idee, wir setzen sie um. Vom ersten Briefing bis zu regelmäßigen Updates sind wir Ihr Partner.',
+        ' Mehr als nur schickes Design: Planet und Skylife Fitness werden zu Cosmos Fitness. Das Unternehmen, die Planet Fitness GmbH, aus Augsburg nutzt seine Kompetenz im Bereich der Trainingsbetreuung und Fusion beider Studios zum Launch eines neuen Corporate Designs und baut damit seine Webpräsenz und den Expertenstatus weiter aus. Bekannt als Vorreiter mit einem einzigartigen Belohnungssystem, möchte das Unternehmen diesem Ruf auch im Internet gerecht werden. Peakconcepts unterstützt hier maßgeblich die Online Positionierung und entwickelt zusätzlich für Cosmos Fitness eine Online Marketing Strategie, die sofort Wirkung zeigt.',
     //buttonLabel: 'Learn More',
-    imgStart: '',
-    img: require('../../Images/ma.png'),
-    //alt: 'Vault'
+    imgStart: 'start',
+    img: require('../../Images/Cosmos Fitness2.jpg'),
+    alt: 'Vault'
 };
 
 export const homeObjSeven = {
@@ -34,13 +34,13 @@ export const homeObjSeven = {
     lightText: false,
     lightTopLine: false,
     lightTextDesc: false,
-    topLine: 'UX/UI-Design',
-    headline: 'Schnelles und kostengünstiges User Experience und Interface Design vom Profi ',
+    topLine: 'Metallbau Wiedemann',
+    headline: 'Infos über Metallbau Wiedemann ',
     description:
-        " Begeistern Sie Ihre Kunden mit einer intuitiven und benutzerfreundlichen Webseite oder App. Denn ein modernes und innovatives Design ist nichts wert, wenn Ihre Nutzer schon nach kurzer Zeit die Geduld verlieren. Das passiert, wenn sich der User auf Ihrer Homepage nicht zurechtfindet, Schaltflächen in Apps ins Leere laufen oder ein Interessent zu viele Schritte tätigen muss, um einen Kauf abzuschließen. Erfolgreiche Websites zeichnen sich durch eine einfache Bedienbarkeit und ein dennoch tolles Design aus. Das beeinflusst Kaufentscheidungen und macht Erstnutzer zu Wiederkehrern. Gegenüber anderen Anbietern haben Sie dadurch den entscheidenden Vorteil. Mit einem User Interface Design und User Experience Design, kurz UI-/UX-Design, wird Ihr Produkt zum intuitiven Erlebnis und sorgt bei Ihren Nutzern für Begeisterung und Vertrauen – egal ob Webseite, App oder Onlineshop. ",
+        " Metallbau Wiedemann – Ihr Spezialist für Wintergärten, Haustüren, Sonnenschutz, Fenster und Schiebetüren sowie für Terrassenüberdachungen. Seit 1966 Erfahrung, Know-How und Entwicklung. ",
     //buttonLabel: 'Start Now',
-    imgStart: 'start',
-    img: require('../../Images/uxui.jpg'),
+    imgStart: '',
+    img: require('../../Images/MettalbauW.jpg'),
     //alt: 'Vault'
 };
 
@@ -49,13 +49,13 @@ export const homeObjEight = {
     lightText: false,
     lightTopLine: false,
     lightTextDesc: false,
-    topLine: 'Webentwicklung',
-    headline: 'Schnelles und kostengünstiges Webdesign vom Profi',
+    topLine: 'FitBoxer',
+    headline: 'Infos über FitBoxer',
     description:
-        ' Was nicht Online ist, existiert nicht. Für den Erfolg Ihres Business sollten Sie auf einen professionellen Internet-Auftritt setzen, um von potenziellen Kunden und Klienten gefunden zu werden. Mit einer informativen und kreativen Webseite erleichtern Sie Ihren Interessenten die Kaufentscheidung und Kontaktaufnahme und sind Ihrer Konkurrenz ein Stück voraus – unabhängig von Branche, Größe und Einzugsgebiet. Gewinnen Sie als Unternehmen, Verein oder auch Privatperson Online Neukunden und begeistern Sie Ihre Bestandskunden mit einem individuellen Internetauftritt. Peakconcepts ist Ihr kompetenter, schneller und kostengünstiger Partner im Bereich Webentwicklung. ',
+        ' Einzigartige Kombination aus Fitness und Kickboxen. FitBoxer bist Du, wenn Du Kickboxen aus reiner Fitness betreiben möchtest um z.B. Deine Traumfigur oder Dein angestrebtes Fitnesslevel zu erreichen. Ein perfekt durchdachtes Trainingsprogramm vom mehrfachen Kickbox-Weltmeister. Dein mobiler Trainingsplan füllt alle Lücken in Deinem Alltag. FitBoxer ist für jeden x-beliebigen Körpertyp und für alle Altersgruppen geeignet. Handy raus, App starten und los geht’s! ',
     //buttonLabel: 'Sign Up Now',
     imgStart: 'start',
-    img: require('../../Images/wd.jpg'),
+    img: require('../../Images/FitBoxer.jpg'),
     alt: 'Vault'
 };
 

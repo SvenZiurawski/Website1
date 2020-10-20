@@ -51,19 +51,19 @@ function Navbar() {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}>Home</NavLinks>
+                <NavLinks to='/' onClick={closeMobileMenu}>Startseite</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/services' onClick={closeMobileMenu}>Leistungen</NavLinks>
+                <NavLinks to='/leistungen' onClick={closeMobileMenu}>Leistungen</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to='/agentur' onClick={closeMobileMenu}>Agentur</NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to='/referenzen' onClick={closeMobileMenu}>Referenzen</NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to='/kontakt' onClick={closeMobileMenu}>Kontakt</NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks to='/services' onClick={closeMobileMenu}>Services</NavLinks>
               </NavItem>
 
             </NavMenu>

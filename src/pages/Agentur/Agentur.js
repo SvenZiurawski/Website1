@@ -1,10 +1,8 @@
 import React from 'react';
 import { InfoSection, Pricing } from '../../components';
-import { homeObjFour } from './Data';
-import { homeObjTwo } from './Data';
-import { homeObjOne, homeObjThree } from './Data';
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
 
-function Services() {
+function Agentur() {
     return (
         <>
             <Pricing />
@@ -16,4 +14,4 @@ function Services() {
     );
 }
 
-export default Services;
+export default Agentur;

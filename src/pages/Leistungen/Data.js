@@ -59,3 +59,17 @@ export const homeObjFour = {
     alt: 'Vault'
 };
 
+export const homeObjFive = {
+    lightBg: true,
+    lightText: false,
+    lightTopLine: false,
+    lightTextDesc: false,
+    topLine: 'Online-Marketing',
+    headline: 'Mit digitalen Lösungen von Peakconcepts zu mehr Umsatz',
+    description:
+        '  Ihr Produkt ist großartig, aber es kommen nicht die erhofften Umsätze? Sie wollen bekannter werden, Ihre Zielgruppe erobern und als Unternehmen wachsen? Eine professionelle Präsenz Ihres Unternehmens im Internet ist heute die Voraussetzung für zufriedene Kunden – und Kunden generell. Ein gezieltes Online-Marketing ist der Schlüssel zum Erfolg, unabhängig Ihrer Branche und Zielgruppe. Fast 90 Prozent aller Menschen in Deutschland nutzen das Internet. Die Möglichkeiten für Unternehmen, ihren Erfolg mittels Onlinemaßnahmen zu steigern, sind dabei schier unendlich. Investieren Sie in den Erfolg und Wachstum Ihres Unternehmens – aber sinnvoll. Schöpfen Sie Ihre Möglichkeiten optimal aus, gewinnen Sie Neukunden und stärken Sie die Beziehung zu Ihren Bestandskunden. Sie können Ihre Reichweite erhöhen, indem Sie sich immer wieder ins Gedächtnis Ihrer (potenziellen) Kunden rufen. Peakconcepts steht in dem Zusammenhang für ein aktives und nachhaltiges Online-Marketing.  ',
+    //buttonLabel: 'Sign Up Now',
+    imgStart: '',
+    img: require('../../Images/om.jpg'),
+    alt: 'Vault'
+};
