@@ -41,7 +41,7 @@ export const homeObjSeven = {
     //buttonLabel: 'Start Now',
     imgStart: '',
     img: require('../../Images/MettalbauW.jpg'),
-    //alt: 'Vault'
+    alt: 'Vault'
 };
 
 export const homeObjEight = {
