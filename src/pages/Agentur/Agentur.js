@@ -1,15 +1,14 @@
 import React from 'react';
-import { InfoSection, Pricing } from '../../components';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
+import { InfoSection } from '../../components';
+import { homeObjNine, homeObjTen, homeObjEleven, homeObjTwelve } from './Data';
 
 function Agentur() {
     return (
         <>
-            <Pricing />
-            <InfoSection {...homeObjOne} />
-            <InfoSection {...homeObjTwo} />
-            <InfoSection {...homeObjThree} />
-            <InfoSection {...homeObjFour} />
+            <InfoSection {...homeObjNine} />
+            <InfoSection {...homeObjTen} />
+            <InfoSection {...homeObjEleven} />
+            <InfoSection {...homeObjTwelve} />
         </>
     );
 }

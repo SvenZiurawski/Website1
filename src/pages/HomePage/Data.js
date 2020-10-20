@@ -3,7 +3,7 @@ export const homeObjOne = {
     lightBg: false,
     lightTopLine: true,
     lightText: false,
-    lightTextDesc: true,
+    lightTextDesc: false,
     topLine: '',
     headline: 'Ihre digitale Positionierung in besten Händen',
     description:
@@ -16,12 +16,12 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-    primary: false,
-    lightBg: false,
+    primary: true,
+    lightBg: true,
     lightTopLine: false,
     lightText: false,
-    lightTextDesc: true,
-    topLine: 'CEO',
+    lightTextDesc: false,
+    topLine: '',
     headline: 'App Entwicklung aus Aalen: Mit Peakconcepts alle Vorteile für Ihr Unternehmen sichern',
     description:
         "Eine eigene App ist für viele Unternehmen ein starkes Marketing-Tool: Sie erhöht nicht nur die Aufmerksamkeit der Kunden und stärkt die Kundenbindung, sie kann auch die Produktivität steigern und eine optimale Nutzung von Ressourcen ermöglichen. Unternehmensintern kann eine App zu vielen Verbesserungen führen, z.B. indem sie Mitarbeitern ein Maximum an digitaler Mobilität bietet. Ganz egal, was Sie mit Ihrer App erreichen wollen: Die Experten von Peakconcepts konzeptionieren, programmieren und pflegen für Sie genau die App, die Ihre Ansprüche optimal erfüllt.",
@@ -38,14 +38,14 @@ export const homeObjThree = {
     lightTopLine: false,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Melik Su',
+    topLine: '',
     headline:
-        'Gründer & Geschäftsführender Gesellschafter',
+        'Setzen Sie auf die Experten für App Entwicklung aus Aalen! Mit Erfahrung und Know-how ist Peakconcepts rundum für Sie da.',
     description:
         "Lassen Sie uns über Ihr Projekt sprechen! Sie erreichen uns telefonisch unter 07361 / 997 85 00, per E-Mail oder ganz bequem über unser Kontaktformular– wir freuen uns auf Ihre Anfrage! ",
     buttonLabel: '',
     imgStart: 'start',
-    img: require('../../Images/Melik.jpg'),
+    img: require('../../Images/ino.jpg'),
     alt: 'Vault',
     start: 'true'
 };

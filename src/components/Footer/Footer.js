@@ -43,7 +43,7 @@ function Footer() {
                 <FooterLinksWrapper>
                     <FooterLinkItems>
                         <FooterLinkTitle>Über uns</FooterLinkTitle>
-                        <FooterLink to='/agentur'>Agentur</FooterLink>
+                        <FooterLink to='/'>Agentur</FooterLink>
                         <FooterLink to='/'>Referenzen</FooterLink>
                         <FooterLink to='/'>Karriere</FooterLink>
                         <FooterLink to='/'>Nutzungsbedingungen</FooterLink>
