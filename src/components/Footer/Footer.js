@@ -36,33 +36,33 @@ function Footer() {
                 <FooterSubText>Sie können sich jederzeit abmelden.</FooterSubText>
                 <Form>
                     <FormInput email='Email' type='email' placeholder='Deine Email' />
-                    <Button fontBig>Abonnieren</Button>
+                    <Button>Löschen</Button>
+                    <Button>Absenden</Button>
+                </Form>
+                <Form>
+
                 </Form>
             </FooterSubscription>
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinkItems>
                         <FooterLinkTitle>Über uns</FooterLinkTitle>
-                        <FooterLink to='/'>Agentur</FooterLink>
-                        <FooterLink to='/'>Referenzen</FooterLink>
-                        <FooterLink to='/'>Karriere</FooterLink>
-                        <FooterLink to='/'>Nutzungsbedingungen</FooterLink>
+                        <FooterLink to='/'>Startseite</FooterLink>
+                        <FooterLink to='/leistungen'>Leistungen</FooterLink>
+                        <FooterLink to='/agentur'>Agentur</FooterLink>
+                        <FooterLink to='/referenzen'>Referenzen</FooterLink>
+                        <FooterLink to='/kontakt'>Kontakt</FooterLink>
                     </FooterLinkItems>
                     <FooterLinkItems>
-                        <FooterLinkTitle>Kontakt</FooterLinkTitle>
+                        <FooterLinkTitle>Rechtliches</FooterLinkTitle>
+                        <FooterLink to='/datenschutz'>Datenschutz</FooterLink>
+                        <FooterLink to='/'>AGB</FooterLink>
                         <FooterLink to='/'>Impressum</FooterLink>
-                        <FooterLink to='/'>Kontakt</FooterLink>
-                        <FooterLink to='/'>Destinations</FooterLink>
-                        <FooterLink to='/'>Sponsorships</FooterLink>
                     </FooterLinkItems>
                 </FooterLinksWrapper>
                 <FooterLinksWrapper>
 
-                    <FooterLinkItems>
-                        <FooterLinkTitle>Social Media</FooterLinkTitle>
-                        <FooterLink to='/'>Instagram</FooterLink>
-                        <FooterLink to='/'>Facebook</FooterLink>
-                    </FooterLinkItems>
+
                 </FooterLinksWrapper>
             </FooterLinksContainer>
             <SocialMedia>
@@ -73,10 +73,10 @@ function Footer() {
           </SocialLogo>
                     <WebsiteRights>PEAKCONCEPTS © 2020</WebsiteRights>
                     <SocialIcons>
-                        <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+                        <SocialIconLink href='https://www.facebook.com/peakconcepts.de/' target='_blank' aria-label='Facebook'>
                             <FaFacebook />
                         </SocialIconLink>
-                        <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+                        <SocialIconLink href='https://www.instagram.com/peakconcepts/' target='_blank' aria-label='Instagram'>
                             <FaInstagram />
                         </SocialIconLink>
                     </SocialIcons>

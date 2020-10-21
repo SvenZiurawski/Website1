@@ -13,7 +13,6 @@ export const FooterContainer = styled.div`
 export const FooterSubscription = styled.section`
   display: flex;
   flex-direction: column;
- 
   align-items: center;
   text-align: center;
   margin-bottom: 24px;
@@ -34,10 +33,11 @@ export const FooterSubText = styled.p`
 `;
 
 export const Form = styled.form`
+  margin: 30 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 900px) {
     flex-direction: column;
     width: 80%;
   }
@@ -45,8 +45,8 @@ export const Form = styled.form`
 
 export const FormInput = styled.input`
   padding: 10px 20px;
-  border-radius: 2px;
-  margin-right: 10px;
+  border-radius: 4px;
+  margin-right: 20px;
   outline: none;
   border: none;
   font-size: 16px;
@@ -54,7 +54,7 @@ export const FormInput = styled.input`
   &::placeholder {
     color: #242424;
   }
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 900px) {
     width: 100%;
     margin: 0 0 16px 0;
   }
@@ -65,7 +65,7 @@ export const FooterLinksContainer = styled.div`
   max-width: 1000px;
   display: flex;
   justify-content: center;
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 600px) {
     padding-top: 32px;
   }
 `;
@@ -86,7 +86,7 @@ export const FooterLinkItems = styled.div`
   width: 160px;
   box-sizing: border-box;
   color: #fff;
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 360px) {
     margin: 0;
     padding: 10px;
     width: 100%;
@@ -119,7 +119,7 @@ export const SocialMediaWrap = styled.div`
   width: 90%;
   max-width: 1000px;
   margin: 40px auto 0 auto;
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 600px) {
     flex-direction: column;
   }
 `;
