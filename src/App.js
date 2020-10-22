@@ -9,6 +9,8 @@ import ScrollToTop from './components/ScrollToTop';
 import { Navbar, Footer } from './components';
 import Referenzen from './pages/Referenzen/Referenzen';
 import Datenschutz from './pages/Datenschutz/Datenschutz';
+import Impressum from './pages/Impressum/Impressum';
+import AGB from './pages/AGB/AGB';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path='/agentur' component={Agentur} />
         <Route path='/referenzen' component={Referenzen} />
         <Route path='/datenschutz' component={Datenschutz} />
+        <Route path='/impressum' component={Impressum} />
+        <Route path='/AGB' component={AGB} />
 
       </Switch>
       <Footer />

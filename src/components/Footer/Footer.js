@@ -56,8 +56,8 @@ function Footer() {
                     <FooterLinkItems>
                         <FooterLinkTitle>Rechtliches</FooterLinkTitle>
                         <FooterLink to='/datenschutz'>Datenschutz</FooterLink>
-                        <FooterLink to='/'>AGB</FooterLink>
-                        <FooterLink to='/'>Impressum</FooterLink>
+                        <FooterLink to='/agb'>AGB</FooterLink>
+                        <FooterLink to='/impressum'>Impressum</FooterLink>
                     </FooterLinkItems>
                 </FooterLinksWrapper>
                 <FooterLinksWrapper>

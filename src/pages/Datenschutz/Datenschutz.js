@@ -3,9 +3,9 @@ import * as React from 'react';
 export default function Datenschutz() {
     return (
         <div>
-            <h1>Datenschutzerklärung</h1><br></br>
-            <h2>I.Name und Anschrift der Verantwortlichen</h2><br></br>
             <body>
+                <h1>Datenschutzerklärung</h1><br></br>
+                <h2>I.Name und Anschrift der Verantwortlichen</h2><br></br>
                 <p>
                     Der Verantwortliche im Sinne der Datenschutz-Grundverordnung und anderer nationaler Datenschutzgesetze der Mitgliedsstaaten sowie sonstiger<br></br> datenschutzrechtlicher Bestimmungen ist die:<br></br><br></br>
                     Peakconcepts GmbH<br></br>
