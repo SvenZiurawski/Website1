@@ -42,7 +42,7 @@ function Navbar() {
         <Nav>
           <NavbarContainer>
             <NavLogo to="/">
-              <NavIcon src={require('../../Images/peakconcepts-logo.jpg')} />
+              <NavIcon src={require('../../Images/logo1.png')} />
             PEAKCONCEPTS
           </NavLogo>
             <MobileIcon onClick={handleClick}>

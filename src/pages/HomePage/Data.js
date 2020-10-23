@@ -55,7 +55,7 @@ export const homeObjFour = {
     lightBg: false,
     lightTopLine: false,
     lightText: false,
-    lightTextDesc: true,
+    lightTextDesc: false,
     topLine: '',
     headline: 'Peakconcepts: Ihr starker Partner für die App Entwicklung in Aalen & mehr',
     description:

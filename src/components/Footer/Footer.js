@@ -10,8 +10,6 @@ import {
     FooterSubscription,
     FooterSubText,
     FooterSubHeading,
-    Form,
-    FormInput,
     FooterLinksContainer,
     FooterLinksWrapper,
     FooterLinkItems,
@@ -30,18 +28,10 @@ function Footer() {
     return (
         <FooterContainer>
             <FooterSubscription>
-                <FooterSubHeading>
-                    neuesten Nachrichten und Trends zu erhalten
-        </FooterSubHeading>
-                <FooterSubText>Sie können sich jederzeit abmelden.</FooterSubText>
-                <Form>
-                    <FormInput email='Email' type='email' placeholder='Deine Email' />
-                    <Button>Löschen</Button>
-                    <Button>Absenden</Button>
-                </Form>
-                <Form>
-
-                </Form>
+                <FooterSubHeading><b>
+                    Kostenloses Strategiegespräch vereinbaren
+            </b></FooterSubHeading>
+                <FooterSubText>Wir freuen uns auf Ihr Anliegen.</FooterSubText>
             </FooterSubscription>
             <FooterLinksContainer>
                 <FooterLinksWrapper>
@@ -68,7 +58,7 @@ function Footer() {
             <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to='/'>
-                        <SocialIcon src={require('../../Images/peakconcepts-logo.jpg')} />
+                        <SocialIcon src={require('../../Images/logo1.png')} />
             PEAKCONCEPTS
           </SocialLogo>
                     <WebsiteRights>PEAKCONCEPTS © 2020</WebsiteRights>
